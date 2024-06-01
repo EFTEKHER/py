@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <div class="container mx-auto p-4">
+    <div class="container mx-auto p-4 bg-slate-700">
         <h1 class="text-4xl font-bold text-center text-gray-800 mb-4">Fake News Detection</h1>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <form id="news-form">
+        <div class="bg-slate-700 p-6 rounded-lg shadow-md">
+            <form id="news-form bg-slate-700">
                 <label for="news" class="block text-gray-700 font-bold mb-2">Enter News Article:</label>
-                <textarea id="news" name="news" rows="5" class="w-full p-2 border border-gray-300 rounded-md" required></textarea>
+                <textarea id="news" name="news" rows="20" class="w-full p-2 border border-gray-300 rounded-md" required></textarea>
                 <button type="submit" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md">Submit</button>
             </form>
             <div id="result" class="mt-4 text-lg font-semibold"></div>
